@@ -1,0 +1,11 @@
+.logo {
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.logo:hover {
+  background-color: blueviolet;
+}
+.main {
+  height: 94vh;
+}
