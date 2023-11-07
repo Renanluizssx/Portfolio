@@ -2,10 +2,11 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import Navegacao from "../../Componentes/Navegacao";
-import logoGit from "../../Assets/github.png";
-import logoLinkedIn from "../../Assets/linkedin.jpg";
-import logoWpp from "../../Assets/wpp.png";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 import minhaFoto from "../../Assets/minhafoto.jpg";
+import { Link } from "react-router-dom";
 import "./home.css";
 function Home() {
   return (
@@ -21,11 +22,13 @@ function Home() {
                 <p>
                   Bem vindo ao meu Portfólio,
                   <h1>Eu sou um desenvolvedor Front-end</h1>
-                  <a>Mais sobre mim</a>
+                  <Link to="/Sobre" className="">
+                    Mais sobre mim
+                  </Link>
                 </p>
-                <img src={logoGit} className="logo" alt="logo github" />
-                <img src={logoLinkedIn} className="logo" alt="logo linkedin" />
-                <img src={logoWpp} className="logo" alt="logo Whatsapp" />
+                <AiFillGithub size="3rem" />
+                <AiFillLinkedin size="3rem" />
+                <AiOutlineWhatsApp size="3rem" />
               </Col>
               <Col>
                 <img
