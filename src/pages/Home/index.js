@@ -6,7 +6,8 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import minhaFoto from "../../Assets/minhafoto.jpg";
-import { Link } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import { LinkContainer } from "react-router-bootstrap";
 import "./home.css";
 function Home() {
   return (
@@ -20,15 +21,15 @@ function Home() {
             <Row className="align-items-center">
               <Col>
                 <p>
-                  Bem vindo ao meu Portfólio,
-                  <h1>Eu sou um desenvolvedor Front-end</h1>
-                  <Link to="/Sobre" className="">
-                    Mais sobre mim
-                  </Link>
+                  <span className="fs-4">Bem vindo ao meu Portfólio,</span>
+                  <h2 className="fs-1">Eu sou um desenvolvedor Front-end</h2>
+                  <LinkContainer to="/Sobre">
+                    <Nav.Link className="fs-4">Mais sobre mim</Nav.Link>
+                  </LinkContainer>
                 </p>
-                <AiFillGithub size="3rem" />
-                <AiFillLinkedin size="3rem" />
-                <AiOutlineWhatsApp size="3rem" />
+                <AiFillGithub size="1.3rem" className="m-1" />
+                <AiFillLinkedin size="1.3rem" className="m-1" />
+                <AiOutlineWhatsApp size="1.3rem" className="m-1" />
               </Col>
               <Col>
                 <img
