@@ -12,9 +12,9 @@ import "./home.css";
 function Home() {
   return (
     <Container fluid>
-      <header>
+      <nav>
         <Navegacao />
-      </header>
+      </nav>
       <main>
         <Row className="align-items-center main justify-content-center">
           <Col xs={6}>
@@ -22,7 +22,9 @@ function Home() {
               <Col>
                 <p>
                   <span className="fs-4">Bem vindo ao meu Portfólio,</span>
-                  <h2 className="fs-1">Eu sou um desenvolvedor Front-end</h2>
+                  <h2 className="fs-1 font-weight-bold text-dark">
+                    Eu sou um desenvolvedor Front-end
+                  </h2>
                   <LinkContainer to="/Sobre">
                     <Nav.Link className="fs-4">Mais sobre mim</Nav.Link>
                   </LinkContainer>

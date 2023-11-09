@@ -1,9 +1,7 @@
 * {
-  font-family: Sometype Mono, monospace;
+  font-family: "Sometype Mono", monospace;
   margin: 0px;
   padding: 0px;
-}
-
-.App {
   background-color: #f1f1f1;
+  color: #4d4d4d;
 }

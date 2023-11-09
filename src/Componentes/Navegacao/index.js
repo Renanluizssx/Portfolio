@@ -7,13 +7,13 @@ import { LinkContainer } from "react-router-bootstrap";
 function Navegacao() {
   return (
     <Row className="align-items-center justify-content-center">
-      <Col xs={6} className="d-flex justify-content-center">
-        <h1>Renan Luiz</h1>
-      </Col>
-      <Col xs={6} className="d-flex justify-content-center">
-        <Navbar data-bs-theme="dark">
+      <Navbar data-bs-theme="dark">
+        <Col xs={6} className="d-flex justify-content-center">
+          <h3>Renan Luiz</h3>
+        </Col>
+        <Col xs={6}>
           <Container>
-            <Nav className="me-auto">
+            <Nav className="me-auto d-flex justify-content-center align-items-center">
               <LinkContainer to="/">
                 <Nav.Link className="text-dark">Home</Nav.Link>
               </LinkContainer>
@@ -25,8 +25,8 @@ function Navegacao() {
               </LinkContainer>
             </Nav>
           </Container>
-        </Navbar>
-      </Col>
+        </Col>
+      </Navbar>
     </Row>
   );
 }
