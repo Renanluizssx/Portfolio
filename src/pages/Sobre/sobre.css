@@ -4,4 +4,8 @@ h1 {
 .imagem-hard-skills {
   width: 100px;
   height: 100px;
+  margin: 25px;
+}
+.row-descricao {
+  height: 94vh;
 }
