@@ -4,10 +4,12 @@ import Col from "react-bootstrap/esm/Col";
 import Navegacao from "../../Componentes/Navegacao";
 function Portfolio() {
   return (
-    <Container>
+    <Container fluid>
       <Navegacao />
       <Row>
-        <Col></Col>
+        <Col>
+          <h1>Projetos</h1>
+        </Col>
       </Row>
     </Container>
   );
