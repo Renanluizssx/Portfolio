@@ -29,9 +29,28 @@ function Home() {
                     <Nav.Link className="fs-4">Mais sobre mim</Nav.Link>
                   </LinkContainer>
                 </p>
-                <AiFillGithub size="1.3rem" className="m-1" />
-                <AiFillLinkedin size="1.3rem" className="m-1" />
-                <AiOutlineWhatsApp size="1.3rem" className="m-1" />
+                <a href="https://github.com/Renanluizssx" target="_blank">
+                  <AiFillGithub
+                    size="1.3rem"
+                    className="m-1"
+                    rel="noreferrer"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/renan-l-2a26661ba/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiFillLinkedin size="1.3rem" className="m-1" />
+                </a>
+                <a href="https://wa.me/5513991097587">
+                  <AiOutlineWhatsApp
+                    size="1.3rem"
+                    className="m-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  />
+                </a>
               </Col>
               <Col>
                 <img
