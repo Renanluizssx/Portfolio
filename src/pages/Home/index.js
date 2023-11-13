@@ -29,12 +29,12 @@ function Home() {
                     <Nav.Link className="fs-4">Mais sobre mim</Nav.Link>
                   </LinkContainer>
                 </p>
-                <a href="https://github.com/Renanluizssx" target="_blank">
-                  <AiFillGithub
-                    size="1.3rem"
-                    className="m-1"
-                    rel="noreferrer"
-                  />
+                <a
+                  href="https://github.com/Renanluizssx"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiFillGithub size="1.3rem" className="m-1" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/renan-l-2a26661ba/"
