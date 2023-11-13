@@ -22,7 +22,7 @@ function Sobre() {
         <Col xs={11}>
           <Row>
             <Col className="text-center">
-              <h1 className="font-weight-bold">Renan Luiz</h1>
+              <h1 className="font-weight-bold">Sobre</h1>
               <p>
                 Olá, meu nome é Renan, estou estudando programação desde 2021,
                 sempre querendo evoluir e me aprimorar em programação. Possuo

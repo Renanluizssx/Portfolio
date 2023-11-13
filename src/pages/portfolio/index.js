@@ -8,18 +8,22 @@ function Portfolio() {
   return (
     <Container fluid>
       <Navegacao />
-      <Row>
-        <Col>
+      <Row className="justify-content-center">
+        <Col xs={6}>
           <h1>Projetos</h1>
-          {dadosPortfolio.map((dado, id) => (
-            <PrintPorfolio
-              key={id}
-              nome={dado.nome}
-              imagem={dado.imagem}
-              titulo={dado.titulo}
-              urlBuild={dado.urlBuild}
-            />
-          ))}
+          <Row>
+            {dadosPortfolio.map((dado, id) => (
+              <PrintPorfolio
+                key={id}
+                nome={dado.nome}
+                texto={dado.texto}
+                imagem={dado.imagem}
+                titulo={dado.titulo}
+                urlBuild={dado.urlBuild}
+                urlGit={dado.urlGit}
+              />
+            ))}
+          </Row>
         </Col>
       </Row>
     </Container>
