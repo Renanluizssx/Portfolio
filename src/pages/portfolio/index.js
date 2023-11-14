@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <Container fluid>
       <Navegacao />
-      <h1>Projetos</h1>
+      <h1 className="text-center mb-5 mt-5">Projetos</h1>
       <Row className="justify-content-center">
         <Col xs={12} lg={6} className="">
           <Row className="flex-column flex-lg-row">

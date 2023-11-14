@@ -23,7 +23,7 @@ function Home() {
                 <p>
                   <span className="fs-4">Bem vindo ao meu Portfólio,</span>
                   <h2 className="fs-1 font-weight-bold text-dark">
-                    Eu sou um desenvolvedor Front-end
+                    Eu sou um desenvolvedor Web
                   </h2>
                   <LinkContainer to="/Sobre">
                     <Nav.Link className="fs-4">Mais sobre mim</Nav.Link>
@@ -43,7 +43,12 @@ function Home() {
                 >
                   <AiFillLinkedin size="1.3rem" className="m-1" />
                 </a>
-                <a href="https://wa.me/5513991097587">
+                <a
+                  href="https://wa.me/5513991097587"
+                  without
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <AiOutlineWhatsApp
                     size="1.3rem"
                     className="m-1"
