@@ -11,6 +11,11 @@ import photoshop from "../../Assets/photoshop.png";
 import corel from "../../Assets/corel.png";
 import node from "../../Assets/node.png";
 import api from "../../Assets/api.png";
+import ux from "../../Assets/ux.png";
+import aws from "../../Assets/aws.png";
+import ai900 from "../../Assets/ai-900.png";
+import dp900 from "../../Assets/dp-900.png";
+import cloud from "../../Assets/cloud.png";
 import "./sobre.css";
 function Sobre() {
   return (
@@ -41,11 +46,13 @@ function Sobre() {
                 <img src={html} alt="html" className="imagem-hard-skills" />
                 <img src={css} alt="css" className="imagem-hard-skills" />
                 <img src={js} alt="javascript" className="imagem-hard-skills" />
+                <img src={ux} alt="ux" className="imagem-hard-skills" />
                 <img
                   src={bootstrap}
                   alt="bootstrap"
                   className="imagem-hard-skills"
                 />
+
                 <img src={react} alt="react" className="imagem-hard-skills" />
                 <img src={node} alt="node" className="imagem-hard-skills" />
                 <img src={api} alt="api" className="imagem-hard-skills" />
@@ -66,6 +73,60 @@ function Sobre() {
                   alt="corel draw"
                   className="imagem-hard-skills"
                 />
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="d-flex justify-content-center align-items-center flex-column">
+              <h2>Certificações</h2>
+              <div>
+                <a
+                  href="https://www.credly.com/badges/f34ef590-4a9c-4bf6-bc8b-8db6fc90333d/public_url"
+                  target="_blank"
+                  without
+                  rel="noreferrer"
+                >
+                  <a
+                    href="https://www.credly.com/badges/f34ef590-4a9c-4bf6-bc8b-8db6fc90333d/public_url"
+                    target="_blank"
+                    without
+                    rel="noreferrer"
+                  >
+                    <img src={aws} alt="aws" className="imagem-hard-skills" />
+                  </a>
+                </a>
+                <a
+                  href="https://www.credly.com/badges/2a384699-4b56-45d5-b167-f0fe2b0a0891/public_url"
+                  target="_blank"
+                  without
+                  rel="noreferrer"
+                >
+                  <img
+                    src={ai900}
+                    alt="ai-900"
+                    className="imagem-hard-skills"
+                  />
+                </a>
+                <a
+                  href="https://www.credly.com/badges/f5af1b30-6ac8-4e59-9205-1d232e516efd/public_url"
+                  target="_blank"
+                  without
+                  rel="noreferrer"
+                >
+                  <img
+                    src={dp900}
+                    alt="dp-900"
+                    className="imagem-hard-skills"
+                  />
+                </a>
+                <a
+                  href="https://www.cloudskillsboost.google/public_profiles/67b9e94e-1cb5-4c73-926e-119e976fa137"
+                  target="_blank"
+                  without
+                  rel="noreferrer"
+                >
+                  <img src={cloud} alt="cloud" className="imagem-hard-skills" />
+                </a>
               </div>
             </Col>
           </Row>

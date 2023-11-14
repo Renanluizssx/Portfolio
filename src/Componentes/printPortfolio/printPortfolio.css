@@ -3,5 +3,9 @@ svg {
   height: 25px;
 }
 .boxe-texto {
-  height: 85%;
+  height: 100%;
+}
+.links {
+  bottom: 5px;
+  right: 150px;
 }
