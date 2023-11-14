@@ -7,5 +7,8 @@ svg {
 }
 .links {
   bottom: 5px;
-  right: 150px;
+  right: 200px;
+}
+.card-img-top {
+  height: 300px;
 }

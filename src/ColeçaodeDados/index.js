@@ -11,7 +11,7 @@ export const dadosPortfolio = [
     titulo:
       "Tecnologias: React, UI - Bootstrap, UX, Api, Rotas e Dados Mocados",
     texto:
-      "Projeto pessoal que fiz sobre uma biografia de um artista da música características do projeto: experiência do usuário, responsivo.",
+      "Projeto pessoal que fiz sobre uma biografia de um artista da música.",
     urlBuild: "https://biografiakanyewest.netlify.app/",
     urlGit:
       "https://github.com/Renanluizssx/Projeto-Kanye-West/tree/main/myapp",
@@ -21,7 +21,7 @@ export const dadosPortfolio = [
     imagem: apiFatosHistoricos,
     titulo: "Tecnologias: React, UI - Bootstrap, Api, Node, Express, Cors",
     texto:
-      "projeto que criei utilizando uma api de fatos históricos criada por mim, onde hospedei no render. Usuário seleciona cada ano entre 1920 e 2020 características do projeto: criação da api com node, utilização de cors para permitir a conexão da api.",
+      "projeto que criei utilizando uma api de fatos históricos criada por mim, onde hospedei no render. Usuário seleciona cada ano entre 1920 e 2020.",
     urlBuild: "https://apifatoshistoricos.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/Projeto-Fatos-Hist-ricos-React",
   },
@@ -35,15 +35,6 @@ export const dadosPortfolio = [
     urlGit: "https://github.com/Renanluizssx/React-Dark",
   },
   {
-    nome: "projeto lista",
-    imagem: lista,
-    titulo: "Tecnologias: Html, Css, Javascript e localstorage",
-    texto:
-      "Projeto onde criei uma lista de tarefas, em que o usuário digita e ele salva no banco do navegador",
-    urlBuild: "https://renanluizssx.github.io/projeto-lista/",
-    urlGit: "https://github.com/Renanluizssx/projeto-lista",
-  },
-  {
     nome: "projeto crud post",
     imagem: Post,
     titulo: "Tecnologias: html, css, javascript e localstorage",
@@ -51,6 +42,15 @@ export const dadosPortfolio = [
       "Projeto onde fiz um crud com localstorage, em que o usuário pode adicionar, editar, excluir ou atualizar o seu post quantas vezes quiser",
     urlBuild: "https://renanluizssx.github.io/Project-Post/",
     urlGit: "https://github.com/Renanluizssx/Project-Post/tree/developer",
+  },
+  {
+    nome: "projeto lista",
+    imagem: lista,
+    titulo: "Tecnologias: Html, Css, Javascript e localstorage",
+    texto:
+      "Projeto onde criei uma lista de tarefas, em que o usuário digita e ele salva no banco do navegador",
+    urlBuild: "https://renanluizssx.github.io/projeto-lista/",
+    urlGit: "https://github.com/Renanluizssx/projeto-lista",
   },
   {
     nome: "projeto barbshop",
