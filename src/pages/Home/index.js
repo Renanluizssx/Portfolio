@@ -16,10 +16,10 @@ function Home() {
         <Navegacao />
       </nav>
       <main>
-        <Row className="align-items-center main justify-content-center">
-          <Col xs={6}>
-            <Row className="align-items-center">
-              <Col>
+        <Row className="align-items-center main justify-content-center flex-lg-row">
+          <Col xs={12} lg={12} className="flex-row">
+            <Row className="justify-content-center align-items-center flex-row">
+              <Col xs={12} lg={6} className="text-center">
                 <p>
                   <span className="fs-4">Bem vindo ao meu Portfólio,</span>
                   <h2 className="fs-1 font-weight-bold text-dark">
@@ -52,12 +52,14 @@ function Home() {
                   />
                 </a>
               </Col>
-              <Col>
-                <img
-                  src={minhaFoto}
-                  alt="Minha foto"
-                  className="rounded-circle"
-                />
+              <Col xs={6} lg={3}>
+                <div>
+                  <img
+                    src={minhaFoto}
+                    alt="Minha foto"
+                    className="rounded-circle w-100"
+                  />
+                </div>
               </Col>
             </Row>
           </Col>

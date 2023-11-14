@@ -8,10 +8,10 @@ function Portfolio() {
   return (
     <Container fluid>
       <Navegacao />
+      <h1>Projetos</h1>
       <Row className="justify-content-center">
-        <Col xs={6}>
-          <h1>Projetos</h1>
-          <Row>
+        <Col xs={12} lg={6} className="">
+          <Row className="flex-column flex-lg-row">
             {dadosPortfolio.map((dado, id) => (
               <PrintPorfolio
                 key={id}

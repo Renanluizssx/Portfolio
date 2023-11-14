@@ -6,14 +6,14 @@ import Navbar from "react-bootstrap/Navbar";
 import { LinkContainer } from "react-router-bootstrap";
 function Navegacao() {
   return (
-    <Row className="align-items-center justify-content-center">
+    <Row className="align-items-center justify-content-center w-100">
       <Navbar data-bs-theme="dark">
         <Col xs={6} className="d-flex justify-content-center">
           <h3>Renan Luiz</h3>
         </Col>
         <Col xs={6}>
           <Container>
-            <Nav className="me-auto d-flex justify-content-center align-items-center">
+            <Nav className="d-flex justify-content-center align-items-center">
               <LinkContainer to="/">
                 <Nav.Link className="text-dark">Home</Nav.Link>
               </LinkContainer>

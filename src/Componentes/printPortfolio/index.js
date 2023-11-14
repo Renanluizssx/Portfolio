@@ -6,7 +6,7 @@ import { FaEye } from "react-icons/fa";
 import "./printPortfolio.css";
 function PrintPorfolio({ nome, texto, imagem, titulo, urlBuild, urlGit }) {
   return (
-    <Col xs={6} className="d-flex justify-content-center">
+    <Col xs={12} lg={6} className="d-flex justify-content-center">
       <Card className="w-100">
         <Card.Img variant="top" src={imagem} className="w-100" alt={nome} />
         <Card.Body>

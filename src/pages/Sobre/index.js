@@ -19,7 +19,7 @@ function Sobre() {
         <Navegacao />
       </nav>
       <Row className="row-descricao align-items-center justify-content-center">
-        <Col xs={11}>
+        <Col xs={11} lg={11}>
           <Row>
             <Col className="text-center">
               <h1 className="font-weight-bold">Sobre</h1>
@@ -33,10 +33,11 @@ function Sobre() {
           <Row>
             <Col
               xs={12}
+              lg={12}
               className="d-flex justify-content-center flex-column align-items-center"
             >
               <h2>Tecnologias</h2>
-              <div className="d-flex container-imagens-hard-skills">
+              <div className="d-flex container-imagens-hard-skills d-flex flex-wrap justify-content-center flex-lg-nowrap">
                 <img src={html} alt="html" className="imagem-hard-skills" />
                 <img src={css} alt="css" className="imagem-hard-skills" />
                 <img src={js} alt="javascript" className="imagem-hard-skills" />
