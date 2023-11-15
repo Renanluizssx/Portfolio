@@ -39,7 +39,7 @@ export const dadosPortfolio = [
     imagem: Post,
     titulo: "Tecnologias: html, css, javascript e localstorage",
     texto:
-      "Projeto onde fiz um crud com localstorage, em que o usuário pode adicionar, editar, excluir ou atualizar o seu post quantas vezes quiser",
+      "Projeto onde fiz um crud com localstorage, em que o usuário pode adicionar, editar, excluir ou atualizar o seu post quantas vezes quiser.",
     urlBuild: "https://renanluizssx.github.io/Project-Post/",
     urlGit: "https://github.com/Renanluizssx/Project-Post/tree/developer",
   },
@@ -48,7 +48,7 @@ export const dadosPortfolio = [
     imagem: lista,
     titulo: "Tecnologias: Html, Css, Javascript e localstorage",
     texto:
-      "Projeto onde criei uma lista de tarefas, em que o usuário digita e ele salva no banco do navegador",
+      "Projeto onde criei uma lista de tarefas, em que o usuário digita e ele salva no banco do navegador.",
     urlBuild: "https://renanluizssx.github.io/projeto-lista/",
     urlGit: "https://github.com/Renanluizssx/projeto-lista",
   },
@@ -57,7 +57,7 @@ export const dadosPortfolio = [
     imagem: barbearia,
     titulo: "tecnologias: html, css, responsividade",
     texto:
-      "projeto onde copiei essa landing page do figma, landing page responsivo com media queries",
+      "projeto onde copiei essa landing page do figma, landing page responsivo com media queries.",
     urlBuild: "https://renanluizssx.github.io/Projeto-da-Barbearia/",
     urlGit: "https://github.com/Renanluizssx/Projeto-da-Barbearia",
   },
