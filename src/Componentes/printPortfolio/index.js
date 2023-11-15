@@ -12,13 +12,13 @@ function PrintPorfolio({ nome, texto, imagem, titulo, urlBuild, urlGit }) {
       xxl={6}
       className="d-flex justify-content-center"
     >
-      <Card className="w-100 mt-4 position-relative">
+      <Card className="w-100 mt-4">
         <Card.Img variant="top" src={imagem} className="w-100" alt={nome} />
         <Card.Body>
           <Card.Title className="fs-6">{titulo}</Card.Title>
           <div className=" d-flex justify-content-end flex-column">
             <Card.Text className="fs-5">{texto}</Card.Text>
-            <div className="position-absolute links">
+            <div className=" links d-flex justify-content-center align-items-end">
               <a
                 href={urlGit}
                 rel="noreferrer"

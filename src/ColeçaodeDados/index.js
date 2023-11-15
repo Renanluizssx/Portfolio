@@ -28,7 +28,7 @@ export const dadosPortfolio = [
   {
     nome: "projeto dark",
     imagem: dark,
-    titulo: "Tecnologias: React",
+    titulo: "Tecnologias: React, responsivo",
     texto:
       "Projeto que onde a plataforma de estudos devmedia me disponibilizou o layout do projeto em que eu tive que fazer exatamente como era pedido.",
     urlBuild: "https://aplicacaodark.netlify.app/",
