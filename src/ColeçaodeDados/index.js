@@ -4,6 +4,7 @@ import dark from "../Assets/dark.png";
 import lista from "../Assets/projetolista.png";
 import Post from "../Assets/ProjetoPost.png";
 import barbearia from "../Assets/projetobarbearia.png";
+import sorveteria from "../Assets/sorveteria.png";
 export const dadosPortfolio = [
   {
     nome: "projeto kanye west",
@@ -26,12 +27,21 @@ export const dadosPortfolio = [
     urlGit: "https://github.com/Renanluizssx/Projeto-Fatos-Hist-ricos-React",
   },
   {
+    nome: "projeto sorveteria",
+    imagem: sorveteria,
+    titulo: "Tecnologias: React, Rotas e responsivo",
+    texto:
+      "Projeto onde criei um site de sorveteria responsivo utilizando rotas do react-router-dom",
+    urlBuild: "https://sorveteriaartesanal.netlify.app/",
+    urlGit: "https://github.com/Renanluizssx/Projeto-Sorveteria-React",
+  },
+  {
     nome: "projeto dark",
     imagem: dark,
     titulo: "Tecnologias: React, responsivo",
     texto:
-      "Projeto que onde a plataforma de estudos devmedia me disponibilizou o layout do projeto em que eu tive que fazer exatamente como era pedido.",
-    urlBuild: "https://aplicacaodark.netlify.app/",
+      "Projeto onde criei um darkmode onde o usuário clica no botão acima que ele trocará entre modo claro e escuro",
+    urlBuild: "https://darkmodeagencia.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/React-Dark",
   },
   {

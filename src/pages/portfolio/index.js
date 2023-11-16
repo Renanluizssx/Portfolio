@@ -10,7 +10,7 @@ function Portfolio() {
       <Navegacao />
       <h1 className="text-center mb-5 mt-5">Projetos</h1>
       <Row className="justify-content-center">
-        <Col xs={12} lg={6} className="">
+        <Col xs={12} lg={6}>
           <Row className="flex-column flex-lg-row">
             {dadosPortfolio.map((dado, id) => (
               <PrintPorfolio
