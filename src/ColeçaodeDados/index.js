@@ -39,7 +39,7 @@ export const dadosPortfolio = [
   {
     nome: "projeto dark",
     imagem: dark,
-    titulo: "Tecnologias: React, responsivo",
+    titulo: "Tecnologias: React, sass,  responsivo",
     texto:
       "Projeto onde criei um dark mode onde o usuário clica no botão acima que ele trocará entre modo claro e escuro. O principal sobre este projeto foi a passagem de dados entre componentes via props",
     urlBuild: "https://darkmodeagencia.netlify.app/",

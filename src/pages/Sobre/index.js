@@ -16,6 +16,7 @@ import aws from "../../Assets/aws.png";
 import ai900 from "../../Assets/ai-900.png";
 import dp900 from "../../Assets/dp-900.png";
 import cloud from "../../Assets/cloud.png";
+import sass from "../../Assets/sass.png";
 import "./sobre.css";
 function Sobre() {
   return (
@@ -47,6 +48,7 @@ function Sobre() {
                 <img src={css} alt="css" className="imagem-hard-skills" />
                 <img src={js} alt="javascript" className="imagem-hard-skills" />
                 <img src={ux} alt="ux" className="imagem-hard-skills" />
+                <img src={sass} alt="sass" className="imagem-hard-skills" />
                 <img
                   src={bootstrap}
                   alt="bootstrap"
