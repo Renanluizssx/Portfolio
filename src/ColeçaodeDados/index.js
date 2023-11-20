@@ -39,7 +39,7 @@ export const dadosPortfolio = [
   {
     nome: "projeto dark",
     imagem: dark,
-    titulo: "Tecnologias: React, sass, responsivo",
+    titulo: "Tecnologias: React, responsivo",
     texto:
       "Projeto onde criei um dark mode onde o usuário clica no botão acima que ele trocará entre modo claro e escuro. O principal sobre este projeto foi a passagem de dados entre componentes via props",
     urlBuild: "https://darkmodeagencia.netlify.app/",
@@ -48,7 +48,7 @@ export const dadosPortfolio = [
   {
     nome: "projeto barbshop",
     imagem: barbshop,
-    titulo: "Tecnologias: React, responsivo",
+    titulo: "Tecnologias: React, sass, responsivo",
     texto:
       "Projeto onde criei uma página inicial de uma barbearia. A principal utilização desse projeto foi o useState para trocar entre modo-escuro e modo-claro",
     urlBuild: "https://barbeariamodedark.netlify.app/",
