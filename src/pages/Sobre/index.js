@@ -12,7 +12,6 @@ import corel from "../../Assets/corel.png";
 import node from "../../Assets/node.png";
 import api from "../../Assets/api.png";
 import ux from "../../Assets/ux.png";
-import aws from "../../Assets/aws.png";
 import ai900 from "../../Assets/ai-900.png";
 import dp900 from "../../Assets/dp-900.png";
 import cloud from "../../Assets/cloud.png";
@@ -82,21 +81,6 @@ function Sobre() {
             <Col>
               <h2 className="text-center">Certificações</h2>
               <div className="d-flex flex-wrap align-items-center justify-content-center">
-                <a
-                  href="https://www.credly.com/badges/f34ef590-4a9c-4bf6-bc8b-8db6fc90333d/public_url"
-                  target="_blank"
-                  without
-                  rel="noreferrer"
-                >
-                  <a
-                    href="https://www.credly.com/badges/f34ef590-4a9c-4bf6-bc8b-8db6fc90333d/public_url"
-                    target="_blank"
-                    without
-                    rel="noreferrer"
-                  >
-                    <img src={aws} alt="aws" className="imagem-hard-skills" />
-                  </a>
-                </a>
                 <a
                   href="https://www.credly.com/badges/2a384699-4b56-45d5-b167-f0fe2b0a0891/public_url"
                   target="_blank"
