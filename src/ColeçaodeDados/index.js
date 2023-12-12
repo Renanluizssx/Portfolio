@@ -8,26 +8,6 @@ import sorveteria from "../Assets/sorveteria.png";
 import barbshop from "../Assets/barbeariamodedark.png";
 export const dadosPortfolio = [
   {
-    nome: "projeto kanye west",
-    imagem: biografiaKanye,
-    titulo:
-      "Tecnologias: React, UI - Bootstrap, UX, Api, Rotas e Dados Mocados",
-    texto:
-      "Projeto pessoal que fiz sobre uma biografia de um artista da música. Utilizei bootstrap como formatação css para deixar responsivo, utilize uma api e rotas para navegação entre as páginas",
-    urlBuild: "https://biografiakanyewest.netlify.app/",
-    urlGit:
-      "https://github.com/Renanluizssx/Projeto-Kanye-West/tree/main/myapp",
-  },
-  {
-    nome: "projeto node",
-    imagem: apiFatosHistoricos,
-    titulo: "Tecnologias: React, UI - Bootstrap, Api, Node, Express, Cors",
-    texto:
-      "projeto que criei utilizando uma api de fatos históricos em que o usuário seleciona cada ano entre 1920 e 2020. Essa api foi criada pelo node e hospedei no render. ",
-    urlBuild: "https://apifatoshistoricos.netlify.app/",
-    urlGit: "https://github.com/Renanluizssx/Projeto-Fatos-Hist-ricos-React",
-  },
-  {
     nome: "projeto sorveteria",
     imagem: sorveteria,
     titulo: "Tecnologias: React, Rotas e responsivo",
@@ -80,5 +60,27 @@ export const dadosPortfolio = [
       "projeto onde copiei essa landing page do figma, landing page responsivo com media queries. Utilizei display flex e media queries para poder criar um design responsivo",
     urlBuild: "https://renanluizssx.github.io/Projeto-da-Barbearia/",
     urlGit: "https://github.com/Renanluizssx/Projeto-da-Barbearia",
+  },
+];
+export const principaisDadosPortfolio = [
+  {
+    nome: "projeto kanye west",
+    imagem: biografiaKanye,
+    titulo:
+      "Tecnologias: React, UI - Bootstrap, UX, Api, Rotas e Dados Mocados",
+    texto:
+      "Projeto pessoal que fiz sobre uma biografia de um artista da música. Utilizei bootstrap como formatação css para deixar responsivo, utilize uma api e rotas para navegação entre as páginas",
+    urlBuild: "https://biografiakanyewest.netlify.app/",
+    urlGit:
+      "https://github.com/Renanluizssx/Projeto-Kanye-West/tree/main/myapp",
+  },
+  {
+    nome: "projeto node",
+    imagem: apiFatosHistoricos,
+    titulo: "Tecnologias: React, UI - Bootstrap, Api, Node, Express, Cors",
+    texto:
+      "projeto que criei utilizando uma api de fatos históricos em que o usuário seleciona cada ano entre 1920 e 2020. Essa api foi criada pelo node e hospedei no render. ",
+    urlBuild: "https://apifatoshistoricos.netlify.app/",
+    urlGit: "https://github.com/Renanluizssx/Projeto-Fatos-Hist-ricos-React",
   },
 ];

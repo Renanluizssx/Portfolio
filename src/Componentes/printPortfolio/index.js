@@ -3,14 +3,24 @@ import { FaCode } from "react-icons/fa";
 import Card from "react-bootstrap/Card";
 import { FaEye } from "react-icons/fa";
 import "./printPortfolio.css";
-function PrintPorfolio({ nome, texto, imagem, titulo, urlBuild, urlGit }) {
+function PrintPorfolio({
+  nome,
+  texto,
+  imagem,
+  titulo,
+  urlBuild,
+  urlGit,
+  mostrar,
+}) {
   return (
     <Col
       xs={12}
-      lg={12}
-      xl={12}
+      sm={12}
+      md={6}
+      lg={6}
+      xl={6}
       xxl={6}
-      className="d-flex justify-content-center"
+      className={`d-flex justify-content-center ${mostrar}`}
     >
       <Card className="w-100 mt-4">
         <Card.Img variant="top" src={imagem} className="w-100" alt={nome} />
