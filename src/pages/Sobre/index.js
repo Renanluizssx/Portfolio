@@ -23,8 +23,8 @@ function Sobre() {
       <nav>
         <Navegacao />
       </nav>
-      <Row className="row-descricao align-items-center justify-content-center">
-        <Col xs={11} lg={11}>
+      <Row className="row-descricao align-items-center justify-content-center ">
+        <Col xs={11} sm={11} md={11} lg={11} xl={11} xxl={11}>
           <Row>
             <Col className="text-center">
               <h1 className="font-weight-bold text-center">Sobre</h1>
@@ -38,7 +38,11 @@ function Sobre() {
           <Row>
             <Col
               xs={12}
+              sm={12}
+              md={12}
               lg={12}
+              xl={12}
+              xxl={12}
               className="d-flex justify-content-center flex-column align-items-center"
             >
               <h2 className="text-center">Tecnologias</h2>
