@@ -15,5 +15,35 @@ svg {
   height: 200px;
 }
 .card-text {
-  height: 250px;
+  height: 150px;
+}
+@media screen and (min-width: 250px) and (max-width: 500px) {
+  .card-text {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .card-text {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 758px) and (max-width: 950px) {
+  .card-text {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 1250px) {
+  .card-text {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 1251px) and (max-width: 1400px) {
+  .card-text {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+  .card-text {
+    height: 200px;
+  }
 }

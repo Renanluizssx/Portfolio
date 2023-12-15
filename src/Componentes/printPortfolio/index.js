@@ -22,7 +22,7 @@ function PrintPorfolio({
       xxl={6}
       className={`d-flex justify-content-center ${mostrar}`}
     >
-      <Card className="w-75 mt-4">
+      <Card className="w-75 mt-4 d-flex">
         <Card.Img variant="top" src={imagem} alt={nome} />
         <Card.Body>
           <Card.Title className="fs-6">{titulo}</Card.Title>

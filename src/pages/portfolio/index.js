@@ -24,7 +24,7 @@ function Portfolio() {
           xxl={12}
           className="d-flex flex-row"
         >
-          <Row>
+          <Row className="justify-content-center">
             {principaisDadosPortfolio.map((dado, id) => (
               <PrintPorfolio
                 key={id}
