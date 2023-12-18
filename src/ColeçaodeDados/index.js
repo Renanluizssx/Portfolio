@@ -21,7 +21,7 @@ export const dadosPortfolio = [
   {
     nome: "Projeto Sorveteria",
     imagem: sorveteria,
-    titulo: "Tecnologias: React, React-Router-Dom e responsivo",
+    titulo: "Tecnologias: React, React-Router-Dom, responsivo",
     texto: "Projeto onde criei um site de sorveteria responsivo",
     urlBuild: "https://sorveteriaartesanal.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/Projeto-Sorveteria-React",
