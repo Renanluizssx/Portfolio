@@ -12,7 +12,7 @@ export const dadosPortfolio = [
     imagem: sorveteria,
     titulo: "Tecnologias: React, Rotas e responsivo",
     texto:
-      "Projeto onde criei um site de sorveteria responsivo, o principal do projeto foi a utilização de rotas com react-router-dom",
+      "Projeto onde criei um site de sorveteria responsivo, o principal do projeto foi a utilização de rotas com react-router-dom.",
     urlBuild: "https://sorveteriaartesanal.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/Projeto-Sorveteria-React",
   },
@@ -21,7 +21,7 @@ export const dadosPortfolio = [
     imagem: dark,
     titulo: "Tecnologias: React, responsivo",
     texto:
-      "Projeto onde criei um dark mode onde o usuário clica no botão acima que ele trocará entre modo claro e escuro. O principal sobre este projeto foi a passagem de dados entre componentes via props",
+      "Projeto onde criei um dark mode onde o usuário clica no botão acima que ele trocará entre modo claro e escuro. O principal sobre este projeto foi a passagem de dados entre componentes via props.",
     urlBuild: "https://darkmodeagencia.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/React-Dark",
   },
@@ -30,7 +30,7 @@ export const dadosPortfolio = [
     imagem: barbshop,
     titulo: "Tecnologias: React, sass, responsivo",
     texto:
-      "Projeto onde criei uma página inicial de uma barbearia. A principal utilização desse projeto foi o useState para trocar entre modo-escuro e modo-claro",
+      "Projeto onde criei uma página inicial de uma barbearia. A principal utilização desse projeto foi o useState para trocar entre modo-escuro e modo-claro.",
     urlBuild: "https://barbeariamodedark.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/Projeto-Barbearia-React",
   },
@@ -39,7 +39,7 @@ export const dadosPortfolio = [
     imagem: Post,
     titulo: "Tecnologias: html, css, javascript e localstorage",
     texto:
-      "Projeto onde fiz um crud, em que o usuário pode adicionar, editar, excluir ou atualizar o seu post. O principal do projeto foi crud com localstorage e utilização do operador spread",
+      "Projeto onde fiz um crud, em que o usuário pode adicionar, editar, excluir ou atualizar o seu post. O principal do projeto foi crud com localstorage e utilização do operador spread.",
     urlBuild: "https://renanluizssx.github.io/Project-Post/",
     urlGit: "https://github.com/Renanluizssx/Project-Post/tree/developer",
   },
@@ -57,7 +57,7 @@ export const dadosPortfolio = [
     imagem: barbearia,
     titulo: "tecnologias: html, css, responsividade",
     texto:
-      "projeto onde copiei essa landing page do figma, landing page responsivo com media queries. Utilizei display flex e media queries para poder criar um design responsivo",
+      "projeto onde copiei essa landing page do figma, landing page responsivo com media queries. Utilizei display flex e media queries para poder criar um design responsivo.",
     urlBuild: "https://renanluizssx.github.io/Projeto-da-Barbearia/",
     urlGit: "https://github.com/Renanluizssx/Projeto-da-Barbearia",
   },
@@ -69,7 +69,7 @@ export const principaisDadosPortfolio = [
     titulo:
       "Tecnologias: React, UI - Bootstrap, UX, Api, Rotas e Dados Mocados",
     texto:
-      "Projeto pessoal que fiz sobre uma biografia de um artista da música. Utilizei bootstrap como formatação css para deixar responsivo, utilizei uma api e rotas para navegação entre as páginas",
+      "Projeto pessoal que fiz sobre uma biografia de um artista da música. Utilizei bootstrap como formatação css para deixar responsivo, utilizei uma api e rotas para navegação entre as páginas.",
     urlBuild: "https://biografiakanyewest.netlify.app/",
     urlGit:
       "https://github.com/Renanluizssx/Projeto-Kanye-West/tree/main/myapp",
