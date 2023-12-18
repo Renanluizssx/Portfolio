@@ -69,7 +69,7 @@ export const principaisDadosPortfolio = [
     titulo:
       "Tecnologias: React, UI - Bootstrap, UX, Api, Rotas e Dados Mocados",
     texto:
-      "Projeto pessoal que fiz sobre uma biografia de um artista da música. Utilizei bootstrap como formatação css para deixar responsivo, utilize uma api e rotas para navegação entre as páginas",
+      "Projeto pessoal que fiz sobre uma biografia de um artista da música. Utilizei bootstrap como formatação css para deixar responsivo, utilizei uma api e rotas para navegação entre as páginas",
     urlBuild: "https://biografiakanyewest.netlify.app/",
     urlGit:
       "https://github.com/Renanluizssx/Projeto-Kanye-West/tree/main/myapp",
