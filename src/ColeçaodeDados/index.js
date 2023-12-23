@@ -11,7 +11,7 @@ export const dadosPortfolio = [
   {
     nome: "Projeto Cardápio",
     imagem: cardapio,
-    titulo: "Tecnologias: React, props, useState, responsivo",
+    titulo: "Tecnologias: React, , useState, Responsivo",
     texto:
       "Projeto onde criei um cardápio de restaurante, onde o usuário pode filtrar por cardápio",
     urlBuild: "https://projetorestaurantee.netlify.app/",
@@ -21,15 +21,15 @@ export const dadosPortfolio = [
   {
     nome: "Projeto Sorveteria",
     imagem: sorveteria,
-    titulo: "Tecnologias: React, React-Router-Dom, responsivo",
+    titulo: "Tecnologias: React, React-Router-Dom, Responsivo",
     texto: "Projeto onde criei um site de sorveteria responsivo",
     urlBuild: "https://sorveteriaartesanal.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/Projeto-Sorveteria-React",
   },
   {
-    nome: "Projeto Dark",
+    nome: "Projeto Dark Mode",
     imagem: dark,
-    titulo: "Tecnologias: React, useState, props, responsivo",
+    titulo: "Tecnologias: React, useState, Context API, Responsivo",
     texto:
       "Projeto onde criei um dark mode onde o usuário clica no botão acima que ele trocará entre modo claro e escuro.",
     urlBuild: "https://darkmodeagencia.netlify.app/",
@@ -38,24 +38,24 @@ export const dadosPortfolio = [
   {
     nome: "Projeto Barbshop",
     imagem: barbshop,
-    titulo: "Tecnologias: React, sass, useState, responsivo",
+    titulo: "Tecnologias: React, Sass, useState, Responsivo",
     texto: "Projeto onde criei uma página inicial de uma barbearia.",
     urlBuild: "https://barbeariamodedark.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/Projeto-Barbearia-React",
   },
   {
-    nome: "Projeto Crud Post",
+    nome: "Projeto Blog",
     imagem: Post,
-    titulo: "Tecnologias: html, css, javascript, spread, localstorage",
+    titulo: "Tecnologias: Html, Css, Javascript, Spread, Localstorage",
     texto:
       "Projeto onde fiz um crud, em que o usuário pode adicionar, editar, excluir ou atualizar o seu post.",
     urlBuild: "https://renanluizssx.github.io/Project-Post/",
     urlGit: "https://github.com/Renanluizssx/Project-Post/tree/developer",
   },
   {
-    nome: "Projeto Lista",
+    nome: "Projeto Listar Tarefa",
     imagem: lista,
-    titulo: "Tecnologias: Html, Css, Javascript, spread, localstorage",
+    titulo: "Tecnologias: Html, Css, Javascript, Spread, Localstorage",
     texto:
       "Projeto onde criei uma lista de tarefas, em que o usuário digita e ele salva no banco de dados do navegador utilizando localstorage e operador spread.",
     urlBuild: "https://renanluizssx.github.io/projeto-lista/",
@@ -64,7 +64,7 @@ export const dadosPortfolio = [
   {
     nome: "Projeto Barbshop",
     imagem: barbearia,
-    titulo: "tecnologias: html, css, responsividade",
+    titulo: "tecnologias: Html, Css, Responsividade",
     texto:
       "projeto onde copiei essa landing page do figma, landing page responsivo com media queries.",
     urlBuild: "https://renanluizssx.github.io/Projeto-da-Barbearia/",
@@ -76,7 +76,7 @@ export const principaisDadosPortfolio = [
     nome: "Projeto Kanye West",
     imagem: biografiaKanye,
     titulo:
-      "Tecnologias: React, UI - Bootstrap, UX, Api, React-Router-Dom e Dados Mocados, responsivo",
+      "Tecnologias: React, UI - Bootstrap, UX, Api, React-Router-Dom e Dados Mocados, Responsivo",
     texto:
       "Projeto pessoal que fiz sobre uma biografia de um artista da música.",
     urlBuild: "https://biografiakanyewest.netlify.app/",
@@ -86,7 +86,8 @@ export const principaisDadosPortfolio = [
   {
     nome: "Projeto Node",
     imagem: apiFatosHistoricos,
-    titulo: "Tecnologias: React, UI - Bootstrap, Api, Node, Express, Cors",
+    titulo:
+      "Tecnologias: React, UI - Bootstrap, Context API, Api, Node, Express, Cors",
     texto:
       "projeto que criei utilizando uma api de fatos históricos em que o usuário seleciona cada ano entre 1920 e 2020.",
     urlBuild: "https://apifatoshistoricos.netlify.app/",
