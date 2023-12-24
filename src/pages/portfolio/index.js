@@ -25,7 +25,7 @@ function Portfolio() {
           className="d-flex flex-row"
         >
           <Row className="justify-content-center">
-            {principaisDadosPortfolio.map((dado, id) => (
+            {principaisDadosPortfolio?.map((dado, id) => (
               <PrintPorfolio
                 key={id}
                 nome={dado.nome}
@@ -40,7 +40,7 @@ function Portfolio() {
         </Col>
         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
           <Row>
-            {dadosPortfolio.map((dado, id) => (
+            {dadosPortfolio?.map((dado, id) => (
               <PrintPorfolio
                 key={id}
                 nome={dado.nome}
