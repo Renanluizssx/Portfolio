@@ -12,7 +12,7 @@ export const dadosPortfolio = [
   {
     nome: "Projeto Cardápio",
     imagem: cardapio,
-    titulo: "Tecnologias: React, useState, Responsivo",
+    titulo: "Tecnologias: React, Sass, useState, Responsivo",
     texto:
       "Projeto onde foi criado um cardápio de restaurante, onde o usuário pode filtrar por cardápio",
     urlBuild: "https://projetorestaurantee.netlify.app/",
