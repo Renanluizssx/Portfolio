@@ -7,6 +7,7 @@ import barbearia from "../Assets/projetobarbearia.png";
 import sorveteria from "../Assets/sorveteria.png";
 import barbshop from "../Assets/barbeariamodedark.png";
 import cardapio from "../Assets/projetocardapio.png";
+import carrinho from "../Assets/carrinho.png";
 export const dadosPortfolio = [
   {
     nome: "Projeto Cardápio",
@@ -44,13 +45,22 @@ export const dadosPortfolio = [
     urlGit: "https://github.com/Renanluizssx/Projeto-Barbearia-React",
   },
   {
+    nome: "Projeto Carrinho de Compras",
+    imagem: carrinho,
+    titulo: "Tecnologias: Html, Css, Javascript, Spread, Localstorage",
+    texto:
+      "Projeto onde criei um carrinho de compras, onde o usuário digita nome, preco e o valor, e o usuário pode deletar, adicionar, aumentar ou diminuir a quantidade de produtos",
+    urlBuild: "https://renanluizssx.github.io/Project-Carrinho/",
+    urlGit: "https://github.com/Renanluizssx/Project-Carrinho/tree/main",
+  },
+  {
     nome: "Projeto Blog",
     imagem: Post,
     titulo: "Tecnologias: Html, Css, Javascript, Spread, Localstorage",
     texto:
       "Projeto onde fiz um crud, em que o usuário pode adicionar, editar, excluir ou atualizar o seu post.",
     urlBuild: "https://renanluizssx.github.io/Project-Post/",
-    urlGit: "https://github.com/Renanluizssx/Project-Post/tree/developer",
+    urlGit: "https://github.com/Renanluizssx/Project-Post",
   },
   {
     nome: "Projeto Listar Tarefa",
