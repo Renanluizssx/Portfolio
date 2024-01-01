@@ -4,7 +4,6 @@ import dark from "../Assets/dark.png";
 import lista from "../Assets/projetolista.png";
 import Post from "../Assets/ProjetoPost.png";
 import barbearia from "../Assets/projetobarbearia.png";
-import sorveteria from "../Assets/sorveteria.png";
 import barbshop from "../Assets/barbeariamodedark.png";
 import cardapio from "../Assets/projetocardapio.png";
 import carrinho from "../Assets/carrinho.png";
@@ -17,15 +16,6 @@ export const dadosPortfolio = [
       "Projeto onde foi criado um cardápio de restaurante, onde o usuário pode filtrar por cardápio",
     urlBuild: "https://projetorestaurantee.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/Projeto-React-Card-pio",
-  },
-
-  {
-    nome: "Projeto Sorveteria",
-    imagem: sorveteria,
-    titulo: "Tecnologias: React, React-Router-Dom, Responsivo",
-    texto: "Projeto onde foi criado um site de sorveteria responsivo",
-    urlBuild: "https://sorveteriaartesanal.netlify.app/",
-    urlGit: "https://github.com/Renanluizssx/Projeto-Sorveteria-React",
   },
   {
     nome: "Projeto Dark Mode",
