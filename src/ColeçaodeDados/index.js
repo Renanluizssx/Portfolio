@@ -4,7 +4,6 @@ import dark from "../Assets/dark.png";
 import lista from "../Assets/projetolista.png";
 import Post from "../Assets/ProjetoPost.png";
 import barbearia from "../Assets/projetobarbearia.png";
-import barbshop from "../Assets/barbeariamodedark.png";
 import cardapio from "../Assets/projetocardapio.png";
 import carrinho from "../Assets/carrinho.png";
 export const dadosPortfolio = [
@@ -25,14 +24,6 @@ export const dadosPortfolio = [
       "Projeto onde foi criado um dark mode onde o usuário clica no botão acima que ele trocará entre modo claro e escuro.",
     urlBuild: "https://darkmodeagencia.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/React-Dark",
-  },
-  {
-    nome: "Projeto Barbshop",
-    imagem: barbshop,
-    titulo: "Tecnologias: React, Sass, useState, Responsivo",
-    texto: "Projeto onde foi criado uma página inicial de uma barbearia.",
-    urlBuild: "https://barbeariamodedark.netlify.app/",
-    urlGit: "https://github.com/Renanluizssx/Projeto-Barbearia-React",
   },
   {
     nome: "Projeto Carrinho de Compras",
