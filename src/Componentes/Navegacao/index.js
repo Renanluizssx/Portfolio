@@ -18,7 +18,7 @@ function Navegacao() {
                 <Nav.Link className="text-dark">Home</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Sobre">
-                <Nav.Link className="text-dark">Sobre</Nav.Link>
+                <Nav.Link className="text-dark">About</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Portfolio">
                 <Nav.Link className="text-dark">Portfolio</Nav.Link>

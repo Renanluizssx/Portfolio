@@ -13,7 +13,7 @@ function Portfolio() {
   return (
     <Container fluid>
       <Navegacao />
-      <h1 className="text-center mb-5 mt-5">Projetos</h1>
+      <h1 className="text-center mb-5 mt-5">Projects</h1>
       <Row className="align-items-center justify-content-center">
         <Col
           xs={12}
@@ -55,7 +55,7 @@ function Portfolio() {
           </Row>
         </Col>
         <button className="w-25 rounded mt-5" onClick={verificaMostrar}>
-          {mostrar === "d-block" ? "mostrar menos" : "mostrar mais"}
+          {mostrar === "d-block" ? "Show less" : "Show more"}
         </button>
       </Row>
     </Container>

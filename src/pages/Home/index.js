@@ -21,12 +21,12 @@ function Home() {
             <Row className="justify-content-center align-items-center flex-row">
               <Col xs={12} lg={6} className="text-center">
                 <p>
-                  <span className="fs-4">Bem vindo ao meu Portfólio,</span>
+                  <span className="fs-4">Welcome to my Porfolio,</span>
                   <h2 className="fs-1 font-weight-bold text-dark">
-                    Eu sou um desenvolvedor Web
+                    i am Full-Stack Developer
                   </h2>
                   <LinkContainer to="/Sobre">
-                    <Nav.Link className="fs-4">Mais sobre mim</Nav.Link>
+                    <Nav.Link className="fs-4">More About Me</Nav.Link>
                   </LinkContainer>
                 </p>
                 <a

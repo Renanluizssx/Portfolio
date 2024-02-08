@@ -8,16 +8,16 @@ import cardapio from "../Assets/projetocardapio.png";
 import carrinho from "../Assets/carrinho.png";
 export const dadosPortfolio = [
   {
-    nome: "Projeto Cardápio",
+    nome: "menu project",
     imagem: cardapio,
-    titulo: "Tecnologias: React, Sass, useState, Responsivo",
+    titulo: "Tecnologies: React, Sass, useState, Responsive",
     texto:
-      "Projeto onde foi criado um cardápio de restaurante, onde o usuário pode filtrar por cardápio",
+      "Project where was created a restaurant menu, where the user can filter each menu",
     urlBuild: "https://projetorestaurantee.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/Projeto-React-Card-pio",
   },
   {
-    nome: "Projeto Dark Mode",
+    nome: "Dark Mode Project",
     imagem: dark,
     titulo: "Tecnologias: React, useState, Context API, Responsivo",
     texto:

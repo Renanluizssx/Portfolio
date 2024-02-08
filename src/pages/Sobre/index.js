@@ -29,9 +29,7 @@ function Sobre() {
             <Col className="text-center">
               <h1 className="font-weight-bold text-center">Sobre</h1>
               <p>
-                Olá, meu nome é Renan, estou estudando programação desde 2021,
-                sempre querendo evoluir e me aprimorar em programação. Possuo
-                foco no Desenvolvimento Web.
+                Hi, my name's Renan, i am studying programming since 2021, i have always been wanting to envolve and improve in programming.
               </p>
             </Col>
           </Row>
@@ -45,7 +43,7 @@ function Sobre() {
               xxl={12}
               className="d-flex justify-content-center flex-column align-items-center"
             >
-              <h2 className="text-center">Tecnologias</h2>
+              <h2 className="text-center">Tecnologies</h2>
               <div className=" w-25 container-imagens-hard-skills d-flex flex-wrap flex-lg-nowrap justify-content-center">
                 <img src={html} alt="html" className="imagem-hard-skills" />
                 <img src={css} alt="css" className="imagem-hard-skills" />
@@ -66,7 +64,7 @@ function Sobre() {
           </Row>
           <Row>
             <Col className="d-flex justify-content-center flex-column align-items-center">
-              <h2 className="text-center">Programas de Design</h2>
+              <h2 className="text-center">Program Design</h2>
               <div className="d-flex">
                 <img
                   src={photoshop}
@@ -83,7 +81,7 @@ function Sobre() {
           </Row>
           <Row>
             <Col>
-              <h2 className="text-center">Certificações</h2>
+              <h2 className="text-center">Certifications</h2>
               <div className="d-flex flex-wrap align-items-center justify-content-center">
                 <a
                   href="https://www.credly.com/badges/2a384699-4b56-45d5-b167-f0fe2b0a0891/public_url"
