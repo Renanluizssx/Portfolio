@@ -21,7 +21,7 @@ export const dadosPortfolio = [
     imagem: dark,
     titulo: "Tecnologias: React, useState, Context API, Responsivo",
     texto:
-      "Projeto onde foi criado um dark mode onde o usuário clica no botão acima que ele trocará entre modo claro e escuro.",
+      "Project where a dark mode was implemented, allowing the user to click on the button above to toggle between light and dark mode",
     urlBuild: "https://darkmodeagencia.netlify.app/",
     urlGit: "https://github.com/Renanluizssx/React-Dark",
   },
@@ -30,7 +30,7 @@ export const dadosPortfolio = [
     imagem: carrinho,
     titulo: "Tecnologias: Html, Css, Javascript, Spread, Localstorage",
     texto:
-      "Projeto de um carrinho de compras, onde o usuário digita nome, preco e o valor, e o usuário pode deletar, adicionar, aumentar ou diminuir a quantidade de produtos",
+      "Project of a shopping cart, where the user inputs the name, price, and quantity of the item, and can delete, add, increase, or decrease the quantity of products.",
     urlBuild: "https://renanluizssx.github.io/Project-Carrinho/",
     urlGit: "https://github.com/Renanluizssx/Project-Carrinho/tree/main",
   },
@@ -39,7 +39,7 @@ export const dadosPortfolio = [
     imagem: Post,
     titulo: "Tecnologias: Html, Css, Javascript, Spread, Localstorage",
     texto:
-      "Projeto de um site de blog, em que o usuário pode adicionar, editar, excluir ou atualizar o seu post.",
+      "Project of a blog website, where the user can add, edit, delete, or update their posts.",
     urlBuild: "https://renanluizssx.github.io/Project-Post/",
     urlGit: "https://github.com/Renanluizssx/Project-Post",
   },
@@ -48,7 +48,7 @@ export const dadosPortfolio = [
     imagem: lista,
     titulo: "Tecnologias: Html, Css, Javascript, Spread, Localstorage",
     texto:
-      "Projeto onde criei uma lista de tarefas, em que o usuário digita suas tarefas e são salvas",
+      "Project where I created a to-do list, enabling the user to input their tasks and save them.",
     urlBuild: "https://renanluizssx.github.io/projeto-lista/",
     urlGit: "https://github.com/Renanluizssx/projeto-lista",
   },
