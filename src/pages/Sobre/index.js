@@ -27,7 +27,7 @@ function Sobre() {
         <Col xs={11} sm={11} md={11} lg={11} xl={11} xxl={11}>
           <Row>
             <Col className="text-center">
-              <h1 className="font-weight-bold text-center">Sobre</h1>
+              <h1 className="font-weight-bold text-center">About</h1>
               <p>
                 Hi, my name's Renan, i am studying programming since 2021, i have always been wanting to envolve and improve in programming.
               </p>

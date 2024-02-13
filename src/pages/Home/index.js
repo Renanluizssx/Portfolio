@@ -23,7 +23,7 @@ function Home() {
                 <p>
                   <span className="fs-4">Welcome to my Porfolio,</span>
                   <h2 className="fs-1 font-weight-bold text-dark">
-                    i am Full-Stack Developer
+                    i am a Full-Stack Developer
                   </h2>
                   <LinkContainer to="/Sobre">
                     <Nav.Link className="fs-4">More About Me</Nav.Link>
