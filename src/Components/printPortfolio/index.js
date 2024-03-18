@@ -3,15 +3,8 @@ import { FaCode } from "react-icons/fa";
 import Card from "react-bootstrap/Card";
 import { FaEye } from "react-icons/fa";
 import "./printPortfolio.css";
-function PrintPorfolio({
-  nome,
-  texto,
-  imagem,
-  titulo,
-  urlBuild,
-  urlGit,
-  mostrar,
-}) {
+
+function PrintPortfolio({ name, text, image, title, buildUrl, gitUrl, show }) {
   return (
     <Col
       xs={12}
@@ -20,24 +13,24 @@ function PrintPorfolio({
       lg={6}
       xl={6}
       xxl={6}
-      className={`d-flex justify-content-center ${mostrar}`}
+      className={`d-flex justify-content-center ${show}`}
     >
       <Card className="w-75 mt-4 d-flex">
-        <Card.Img variant="top" src={imagem} alt={nome} />
+        <Card.Img variant="top" src={image} alt={name} />
         <Card.Body>
-          <Card.Title className="fs-6">{titulo}</Card.Title>
-          <div className=" d-flex justify-content-end flex-column">
-            <Card.Text className="fs-5">{texto}</Card.Text>
-            <div className=" links d-flex justify-content-center align-items-end">
+          <Card.Title className="fs-6">{title}</Card.Title>
+          <div className="d-flex justify-content-end flex-column">
+            <Card.Text className="fs-5">{text}</Card.Text>
+            <div className="links d-flex justify-content-center align-items-end">
               <a
-                href={urlGit}
+                href={gitUrl}
                 rel="noreferrer"
                 target="_blank"
                 className="me-1"
               >
                 <FaCode />
               </a>
-              <a href={urlBuild} target="_blank" rel="noreferrer">
+              <a href={buildUrl} target="_blank" rel="noreferrer">
                 <FaEye />
               </a>
             </div>
@@ -47,4 +40,5 @@ function PrintPorfolio({
     </Col>
   );
 }
-export default PrintPorfolio;
+
+export default PrintPortfolio;

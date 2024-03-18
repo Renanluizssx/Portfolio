@@ -2,7 +2,7 @@ svg {
   width: 25px;
   height: 25px;
 }
-.boxe-texto {
+.text-box {
   height: 100%;
 }
 .links {
@@ -11,7 +11,7 @@ svg {
 .card-img-top {
   height: 300px;
 }
-.links-texto {
+.text-links {
   height: 200px;
 }
 .card-text {

@@ -1,18 +1,21 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
-import Navegacao from "../../Componentes/Navegacao";
-import { dadosPortfolio, principaisDadosPortfolio } from "../../ColeçaodeDados";
+import Navigation from "../../Components/Navigation";
+import { portfolioData, mainPortfolioData } from "../../DataCollection";
 import { useState } from "react";
-import PrintPorfolio from "../../Componentes/printPortfolio";
+import PrintPortfolio from "../../Components/printPortfolio";
+
 function Portfolio() {
-  const [mostrar, setMostrar] = useState("d-none");
-  const verificaMostrar = () => {
-    mostrar === "d-block" ? setMostrar("d-none") : setMostrar("d-block");
+  const [showMore, setShowMore] = useState(false);
+
+  const toggleShowMore = () => {
+    setShowMore(!showMore);
   };
+
   return (
     <Container fluid>
-      <Navegacao />
+      <Navigation />
       <h1 className="text-center mb-5 mt-5">Projects</h1>
       <Row className="align-items-center justify-content-center">
         <Col
@@ -25,40 +28,41 @@ function Portfolio() {
           className="d-flex flex-row"
         >
           <Row className="justify-content-center">
-            {principaisDadosPortfolio?.map((dado, id) => (
-              <PrintPorfolio
+            {mainPortfolioData?.map((data, id) => (
+              <PrintPortfolio
                 key={id}
-                nome={dado.nome}
-                texto={dado.texto}
-                imagem={dado.imagem}
-                titulo={dado.titulo}
-                urlBuild={dado.urlBuild}
-                urlGit={dado.urlGit}
+                name={data.name}
+                text={data.text}
+                image={data.image}
+                title={data.title}
+                buildUrl={data.buildUrl}
+                gitUrl={data.gitUrl}
               />
             ))}
           </Row>
         </Col>
         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
           <Row>
-            {dadosPortfolio?.map((dado, id) => (
-              <PrintPorfolio
+            {portfolioData?.map((data, id) => (
+              <PrintPortfolio
                 key={id}
-                nome={dado.nome}
-                texto={dado.texto}
-                imagem={dado.imagem}
-                titulo={dado.titulo}
-                urlBuild={dado.urlBuild}
-                urlGit={dado.urlGit}
-                mostrar={mostrar}
+                name={data.name}
+                text={data.text}
+                image={data.image}
+                title={data.title}
+                buildUrl={data.buildUrl}
+                gitUrl={data.gitUrl}
+                show={showMore ? "d-block" : "d-none"}
               />
             ))}
           </Row>
         </Col>
-        <button className="w-25 rounded mt-5" onClick={verificaMostrar}>
-          {mostrar === "d-block" ? "Show less" : "Show more"}
+        <button className="w-25 rounded mt-5" onClick={toggleShowMore}>
+          {showMore ? "Show less" : "Show more"}
         </button>
       </Row>
     </Container>
   );
 }
+
 export default Portfolio;
